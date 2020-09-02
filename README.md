@@ -17,7 +17,7 @@ Mainly to display what good semantic HTML may do for a website, and how refactor
     `<header>`
     `<nav>`
     `<main>`
-    `<section>
+    `<section>`
     `<aside>`
     `<footer>`
     `<small>`
