@@ -1,39 +1,43 @@
-#01 HTML CSS Git: Code Refactor
+# Horiseon - The Search Engine Optimization Project
 
-One of the most common tasks for front-end and junior developers is to take existing code and refactor it to either meet a certain set of standards or implement a new technology. Web accessibility is an increasingly important consideration for businesses, ensuring that people with disabilities or socio-economic restrictions have access to their website, and helping them avoid litigation.
-Your task is to refactor an existing webpage to make it accessible. An important rule to follow when working with someone else's code is the Scout Rule:
+## Description
+Horiseon is an artificial marketing agency that wants their code base to follow accessibility standards so that their own site is optimized for search engines. This means adding semantic HTML elements, fixing the logical structure of the website independent of styling and positioning, adding accessible alt attributes to image elements, and adding a descriptive title to the title element.
 
-Always leave the code you are editing a little cleaner than you found it.
+## What was the motivation?
+First, I wanted to build a solid understanding of semantic HTML practices and learn more about modern accessibility standards.
+Second, I needed to practice using Git Hub and Git Bash to deploy a live project to the web.
+Lastly, I am acquiring hands on experience refactoring code bases and leaving them better than I found them.
 
-To impress clients, you should always go the extra mile and improve their codebase for long term sustainability. Ensure that all links are functioning correctly and clean up the CSS to make it more efficient, consolidating CSS selectors and properties, organizing them to follow the semantic structure of the HTML elements, and including comments before each element or section of the page.
+## Why did I build this project?
+Mainly to display what good semantic HTML may do for a website, and how refactoring can make a website more efficient. Making a website more accessible is great for increasing a SEO (search engine optimization) score and to extend the reach to as many people as possible by having machine readable code. Having semantic HTML tags gives meaning to the structure of a website. This allows for machines to understand what is important in the HTML document. This benifits people with disabilities, people using mobile devices, or those with slow network connections. 
 
-User Story
-AS A marketing agency
-I WANT a codebase that follows accessibility standards
-SO THAT our own site is optimized for search engines
+## How did I make the website more accessible?
+1. By using semantic HTML tags such as:
+  <header>
+  <nav>
+  <main>
+  <section>
+  <aside>
+  <footer>
+  <small>
 
-Acceptance Criteria
-GIVEN a webpage meets accessibility standards
-WHEN I view the source code
-THEN I find semantic HTML elements
-WHEN I view the structure of the HTML elements
-THEN I find that the elements follow a logical structure independent of styling and positioning
-WHEN I view the image elements
-THEN I find accessible alt attributes
-WHEN I view the heading attributes
-THEN they fall in sequential order
-WHEN I view the title element
-THEN I find a concise, descriptive title
+2. Adding image alt attributes to all <img> tags.
 
-Review
-You are required to submit the following for review:
+3. Changing the head <title> tag to be more descriptive.
+  
+4. Making a CSS image to have some semantic meaning by using a <span> tag with a role attribute that equals "img" and a aira-lable attribute the equals what the image is about. For example:
+  
+  <span role="img" aroa-lable="Digital marketing meeting"></span>
+  
+5. Refactored CSS to be more efficient by eliminating duplicate code.
 
+## Credits
 
-The URL of the deployed application.
-
-
-The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
+Thanks to Trilogy Education Services for providing this wonderful opportunity.
 
 
 
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+
+
+
+
