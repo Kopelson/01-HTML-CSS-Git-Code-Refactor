@@ -24,7 +24,7 @@ Mainly to display what good semantic HTML may do for a website, and how refactor
 
 2. Adding image alt attributes to all <img> tags.
 
-3. Changing the head <title> tag to be more descriptive.
+3. Changing the head `<title>` tag to be more descriptive.
   
 4. Making a CSS image to have some semantic meaning by using a <span> tag with a role attribute that equals "img" and a aira-lable attribute the equals what the image is about. For example:
  
