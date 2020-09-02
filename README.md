@@ -13,24 +13,23 @@ Mainly to display what good semantic HTML may do for a website, and how refactor
 
 ## How did I make the website more accessible?
 1. By using semantic HTML tags such as:
-`
-  <header>
-  <nav>
-  <main>
-  <section>
-  <aside>
-  <footer>
-  <small>
- `
+
+    <header>
+    <nav>
+    <main>
+    <section>
+    <aside>
+    <footer>
+    <small>
 
 2. Adding image alt attributes to all <img> tags.
 
 3. Changing the head <title> tag to be more descriptive.
   
 4. Making a CSS image to have some semantic meaning by using a <span> tag with a role attribute that equals "img" and a aira-lable attribute the equals what the image is about. For example:
- ` 
-  <span role="img" aroa-lable="Digital marketing meeting"></span>
- `
+ 
+    <span role="img" aroa-lable="Digital marketing meeting"></span>
+
 5. Refactored CSS to be more efficient by eliminating duplicate code.
 
 ## Credits
