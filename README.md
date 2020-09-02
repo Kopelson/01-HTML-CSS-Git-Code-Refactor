@@ -22,7 +22,7 @@ Mainly to display what good semantic HTML may do for a website, and how refactor
     `<footer>`
     `<small>`
 
-2. Adding image alt attributes to all <img> tags.
+2. Adding image alt attributes to all `<img>` tags.
 
 3. Changing the head `<title>` tag to be more descriptive.
   
