@@ -3,6 +3,8 @@
 ## Description
 Horiseon is an artificial marketing agency that wants their code base to follow accessibility standards so that their own site is optimized for search engines. This means adding semantic HTML elements, fixing the logical structure of the website independent of styling and positioning, adding accessible alt attributes to image elements, and adding a descriptive title to the title element.
 
+## Overview
+  * Link to project https://kopelson.github.io/Horiseon/
 ## What was the motivation?
 First, I wanted to build a solid understanding of semantic HTML practices and learn more about modern accessibility standards.
 Second, I needed to practice using Git Hub and Git Bash to deploy a live project to the web.
