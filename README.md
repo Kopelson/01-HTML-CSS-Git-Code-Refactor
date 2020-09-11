@@ -7,9 +7,7 @@ Horiseon is an artificial marketing agency that wants their code base to follow 
   
   ![projectpic](https://user-images.githubusercontent.com/57735283/92838228-621c8600-f393-11ea-9629-87d4d1ac4c32.PNG)
 
-  * Link to github https://github.com/Kopelson/Horiseon
   * Link to project https://kopelson.github.io/Horiseon/
-
 
 ## What was the motivation?
 First, I wanted to build a solid understanding of semantic HTML practices and learn more about modern accessibility standards.
