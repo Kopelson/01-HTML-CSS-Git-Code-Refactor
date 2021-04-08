@@ -1,6 +1,5 @@
-# Horiseon - The Search Engine Optimization Project
+# Horiseon - The Search Engine Optimization Project :
 
-## Description
 Horiseon is an artificial marketing agency that wants their code base to follow accessibility standards so that their own site is optimized for search engines. This means adding semantic HTML elements, fixing the logical structure of the website independent of styling and positioning, adding accessible alt attributes to image elements, and adding a descriptive title to the title element.
 
 ## Snapshot of Project
